@@ -51,12 +51,12 @@ class Song
     data = row.split(", ")
     artist_name = data[0]
     name = data[1]
-    file_type = data[2]
+    
   
     song = self.new
     song.name = name
     song.artist_name = artist_name
-    song.file_type = file_type
+  
     song 
     binding.pry
   end 
