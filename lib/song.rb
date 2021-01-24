@@ -53,8 +53,8 @@ class Song
       artist_name = data[0]
       name = data[1]
       song = self.new
-      song
-      puts "#{name}" 
+      song.name = name 
+       
   end 
 end 
 
