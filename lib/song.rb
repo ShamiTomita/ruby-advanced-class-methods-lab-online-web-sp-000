@@ -47,14 +47,14 @@ class Song
   
   def self.new_from_filename(filename)
     rows = filename.split("\n")
-    people = rows.collect do |row|
+    songs = rows.collect do |row|
     data = row.split(", ")
-    name = data[0]
-    age = data[1]
-    company = data[2]
+    artist_name = data[0]
+    name = data[1]
+    file_type = data[2]
   
-  person = Person.new
-  person.name = name
+    song = song.new
+    person.name = name
   person.age = age
   person.company = company
   person
