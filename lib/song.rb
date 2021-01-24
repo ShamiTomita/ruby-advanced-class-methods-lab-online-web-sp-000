@@ -53,7 +53,7 @@ class Song
     name = data[1]
     file_type = data[2]
   
-    song = song.new
+    song = self.new
     song.name = name
     song.artist_name = artist_name
     song.file_type = file_type
