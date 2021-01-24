@@ -51,16 +51,10 @@ class Song
     rows = filename.split(" - ")
     songs = rows.collect do |row|
     data = row.split(", ")
+    
     artist_name = data[0]
     name = data[1]
-    
-  
-    song = self.new
-    song.name = name
-    song.artist_name = artist_name
-  
-    song 
-    binding.pry
+    self.create_by_name(name)
     
   end 
   end 
