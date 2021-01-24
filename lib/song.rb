@@ -11,5 +11,5 @@ class Song
   end
   
   def self.create(name)
-    song = 
+    song = self.new
 end
