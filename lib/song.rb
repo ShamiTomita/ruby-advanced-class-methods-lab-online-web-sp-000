@@ -37,10 +37,7 @@ class Song
     if name == self.find_by_name(name)
       song 
     else 
-      song = self.new 
-      song.name = name 
-      @@all << song 
-      song 
+     self.create_by_name 
     end 
   end 
 end
