@@ -50,12 +50,12 @@ class Song
     filename.slice!(".mp3")
     rows = filename.split(" - ")
     info = rows.collect do |row|
-    data = row.split(", ")
+      data = row.split(", ")
     
-    artist_name = data[0]
-    name = data[1]
-    self.create_by_name(name)
-  end 
+      artist_name = data[0]
+     name = data[1]
+     self.create_by_name(name)
+    end 
   end 
 end 
 
