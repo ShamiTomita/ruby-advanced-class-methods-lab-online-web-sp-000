@@ -54,7 +54,6 @@ class Song
       name = data[1]
       self.create_by_name(name)
       binding.pry
-    end 
     
   end 
 end 
