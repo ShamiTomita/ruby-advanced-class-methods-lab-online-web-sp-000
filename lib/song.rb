@@ -57,6 +57,7 @@ class Song
     song.name = name
     song.artist_name = artist_name
     song.file_type = file_type
-    person
+    song 
+    binding.pry
   end 
 end
