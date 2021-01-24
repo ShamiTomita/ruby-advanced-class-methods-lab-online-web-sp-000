@@ -53,9 +53,10 @@ class Song
       data = row.split(", ")
     
       artist_name = data[0]
-     name = data[1]
-     self.create_by_name(name)
+       name = data[1]
+      self.create_by_name(name)
     end 
+    
   end 
 end 
 
